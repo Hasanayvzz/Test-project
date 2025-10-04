@@ -1,0 +1,25 @@
+{
+  "collections": {
+    "title": "Collections",
+    "subtitle": "View and manage all your collections",
+    "totalCollections": "Total Collections",
+    "currentPage": "Current Page",
+    "totalPages": "Total Pages",
+    "perPage": "Per Page",
+    "loading": "Loading collections...",
+    "notFound": "Collection not found",
+    "noCollections": "No collections added yet",
+    "previous": "Previous",
+    "next": "Next",
+    "total": "Total",
+    "of": "of",
+    "showing": "showing",
+    "noDescription": "No description",
+    "channel": "Channel",
+    "categories": "Categories",
+    "colors": "Colors",
+    "tags": "Tags",
+    "otherFilters": "Other Filters",
+    "editPins": "Edit Pins"
+  }
+}

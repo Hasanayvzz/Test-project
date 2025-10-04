@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.light {
+  --background: 245, 245, 245;
+  --border: 225, 225, 225;
+  --card: 255, 255, 255;
+  --copy-primary: 23, 23, 23;
+  --copy-secondary: 115, 115, 115;
+  --text: 139, 92, 246;
+  --text-active: 124, 58, 237;
+  --text-color: 255, 255, 255;
+  --textPrimary: 131, 131, 131;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow-card-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-card-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-card-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+
+  background: rgb(var(--background));
+}
+
+.dark {
+  --background: 17, 17, 17;
+  --border: 39, 40, 42;
+  --textPrimary: 255, 255, 255;
+  --card: 17, 17, 17;
+  --copy-primary: 250, 250, 250;
+  --copy-secondary: 245, 245, 245;
+  --text: 99, 102, 241;
+  --text-active: 79, 70, 229;
+  --text-color: 255, 255, 255;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.4),
+    0 1px 2px -1px rgba(0, 0, 0, 0.4);
+  --shadow-card-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.5),
+    0 2px 4px -2px rgba(0, 0, 0, 0.5);
+  --shadow-card-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6),
+    0 4px 6px -4px rgba(0, 0, 0, 0.5);
+  --shadow-card-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.7),
+    0 8px 10px -6px rgba(0, 0, 0, 0.6);
+}
+html {
+  background: var(--background) !important;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent !important;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent !important;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: transparent !important;
+  border-radius: 10px;
+  border: 2px solid transparent !important;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

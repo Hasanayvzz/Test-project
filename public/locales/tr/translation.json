@@ -1,0 +1,25 @@
+{
+  "collections": {
+    "title": "Koleksiyonlar",
+    "subtitle": "Tüm koleksiyonlarınızı görüntüleyin ve yönetin",
+    "totalCollections": "Toplam Koleksiyon",
+    "currentPage": "Mevcut Sayfa",
+    "totalPages": "Toplam Sayfa",
+    "perPage": "Sayfa Başına",
+    "loading": "Koleksiyonlar yükleniyor...",
+    "notFound": "Koleksiyon bulunamadı",
+    "noCollections": "Henüz hiç koleksiyon eklenmemiş",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "total": "Toplam",
+    "of": "koleksiyondan",
+    "showing": "arası gösteriliyor",
+    "noDescription": "Açıklama yok",
+    "channel": "Kanal",
+    "categories": "Kategoriler",
+    "colors": "Renkler",
+    "tags": "Etiketler",
+    "otherFilters": "Diğer Filtreler",
+    "editPins": "Sabitleri Düzenle"
+  }
+}
